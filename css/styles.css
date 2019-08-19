@@ -3,6 +3,9 @@ body{
 }
 
 h1{
-    color: springgreen;
-    background-color: whitesmoke;
+    font-size: 40px;
+  padding-top: 20px;
+  font-weight: bolder;
+  color: blue;
+
 }
