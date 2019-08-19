@@ -30,7 +30,64 @@ if(day <= 0 || > 31)
 } else {
     document.write("continue");
 }
-// function 
+// calculation function 
+function calculate(){
+  dayOfWeek = ( ( (century/4) -2*CC-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) mod 7
+
+}if "dayOfWeek < 0"{
+  dayOfWeek = dayOfWeek * -1;
+}
+else if (dayOfWeek > 0){
+  return dayOfWeek;
+}
+function CheckDayOfWeek(){
+  day = calculateDay();
+  checkGender();
+}
+// radio function 
+function checkGende(){
+  var gen = document.getElementsByName("")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 switch(gender){
     case gender = "male":
           switch(day){
