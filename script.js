@@ -9,4 +9,25 @@ function getInput(){
     year = parseInt(document.getElementById)("Year").value);
     month  = parseInt(document.getElementById)("Month").value;
     day = parseInt(document.getElementById)("Day").value;
-    
+// validation
+if(century > 21 ){
+    alert("Enter correct Century");
+} else {
+    document.write("continue");
+}
+if(year < 1 > 2020){
+    alert("Enter correct Year");
+} else {
+    document.write("continue");
+}
+if(month < 1 > 12)
+    alert("Enter correct month");
+} else {
+    document.write("continue");
+}
+if(day < 1 > 31)
+    alert("Enter correct month");
+} else {
+    document.write("continue");
+}
+//
