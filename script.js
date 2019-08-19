@@ -5,29 +5,46 @@ femaleNmaes=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
 // get input
 function getInput(){
-    century = parseInt(document.getElementById("Century").value);
-    year = parseInt(document.getElementById)("Year").value);
-    month  = parseInt(document.getElementById)("Month").value;
-    day = parseInt(document.getElementById)("Day").value;
+var century = parseInt(document.getElementById("century").value);
+var year = parseInt(document.getElementById)("year").value);
+var month  = parseInt(document.getElementById)("month").value);
+var day = parseInt(document.getElementById)("day").value);
 // validation
 if(century > 21 ){
     alert("Enter correct Century");
 } else {
     document.write("continue");
 }
-if(year < 1 > 2020){
+if(year <= 0|| > 2020){
     alert("Enter correct Year");
 } else {
     document.write("continue");
 }
-if(month < 1 > 12)
+if(month <= 0 || > 12)
     alert("Enter correct month");
 } else {
     document.write("continue");
 }
-if(day < 1 > 31)
-    alert("Enter correct month");
+if(day <= 0 || > 31)
+    alert("Enter valid day");
 } else {
     document.write("continue");
 }
-//
+// function 
+switch(gender){
+    case gender = "male":
+          switch(day){
+            case (0 || -0):
+              document.getElementById("result").innerHTML = "The day is on a sunday." + "  " + "Your akan name is " + maleNames[0];
+            break;
+            case (1 || -1):
+              document.getElementById("result").innerHTML = "The day is on a monday." + " " + "Your akan name is " + maleNames[1];
+            break;
+            case; (2 || -2):
+            document.getElementById("result").innerHTML = "The day is on Tuesday." + "" + "Your akan name is" + maleNames[2];
+            break;
+            case;
+            document.getElementById("result").innerHTML = "The day is on Wednesday." + "" + "Your akan name is" + maleNames[3];
+            break;
+            document.getElementById("result").innerhtml = "The day is on Thursday." + "" + "Your akan name is" + maleNames[4];
+            break;
