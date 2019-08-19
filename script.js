@@ -40,11 +40,20 @@ switch(gender){
             case (1 || -1):
               document.getElementById("result").innerHTML = "The day is on a monday." + " " + "Your akan name is " + maleNames[1];
             break;
-            case; (2 || -2):
-            document.getElementById("result").innerHTML = "The day is on Tuesday." + "" + "Your akan name is" + maleNames[2];
+            case (2 || -2):
+              document.getElementById("result").innerHTML = "The day is on Tuesday." + "" + "Your akan name is" + maleNames[2];
             break;
-            case;
-            document.getElementById("result").innerHTML = "The day is on Wednesday." + "" + "Your akan name is" + maleNames[3];
+            case (3 || -3)
+              document.getElementById("result").innerHTML = "The day is on Wednesday." + "" + "Your akan name is" + maleNames[3];
             break;
-            document.getElementById("result").innerhtml = "The day is on Thursday." + "" + "Your akan name is" + maleNames[4];
+            case (4 || -4):
+              document.getElementById("result").innerHTML = "The day is on Thursday." + "" + "Your akan name is" + maleNames[4];
             break;
+            case (5 || -5):
+             document.getElementById("result").innerHTML = " The day is on Friday" + "" + "Your akan name is" + maleNames[5];
+            break;
+            case (6 || -6):
+                document.getElementById("results").innerHTML = " The day is on Saturday" + "" + "You akan name is" + maleNames[6]
+            break;
+            
+
