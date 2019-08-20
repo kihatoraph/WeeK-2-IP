@@ -50,6 +50,8 @@ console.log = "result"
 function checkGende(){
   var gen = document.getElementsByName("")
 }
+console.log = "result"
+
 
 
 
