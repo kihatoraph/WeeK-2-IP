@@ -5084,10 +5084,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
+  background-image: (hr.jpeg)
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   border-radius: 0.3rem;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7b0IUktBCeCM2Ry5YH7m3SfBGVVDaJxyhQUiOy3AdLEfaIEt6LQ);
+  background-color: #e9ecef;
+
 }
 
 @media (min-width: 576px) {
