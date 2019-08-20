@@ -35,7 +35,7 @@ console.log = "result"
 function calculate(){
   dayOfWeek = ( ( (century/4) -2*CC-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) mod 7;
   console.log = "result"
-}if "dayOfWeek < 0"{
+}if "dayOfWeek < 0"{e. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
   dayOfWeek = dayOfWeek * -1;
 }
 else if (dayOfWeek > 0){
