@@ -44,6 +44,8 @@ function CheckDayOfWeek(){
   day = calculateDay();
   checkGender();
 }
+console.log = "result"
+
 // radio function 
 function checkGende(){
   var gen = document.getElementsByName("")
