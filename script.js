@@ -30,6 +30,7 @@ if(day <= 0 || > 31)
 } else {
     document.write("continue");
 }
+console.log = "result"
 // calculation function 
 function calculate(){
   dayOfWeek = ( ( (century/4) -2*CC-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) mod 7;
