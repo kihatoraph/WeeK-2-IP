@@ -32,8 +32,12 @@ if(day <= 0 || > 31)
 }
 // calculation function 
 function calculate(){
+<<<<<<< HEAD
   dayOfWeek = ( ( (century/4) -2*CC-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) mod 7;
   console.log(result);
+=======
+  dayOfWeek = ( ( (century/4) -2*CC-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) mod 7
+>>>>>>> master
 
 }if "dayOfWeek < 0"{
   dayOfWeek = dayOfWeek * -1;
@@ -44,6 +48,7 @@ else if (dayOfWeek > 0){
 function CheckDayOfWeek(){
   day = calculateDay();
   checkGender();
+<<<<<<< HEAD
   console.log(result);
 
 }
@@ -53,6 +58,13 @@ function checkGender(){
 }
 console.log(result);
 
+=======
+}
+// radio function 
+function checkGende(){
+  var gen = document.getElementsByName("")
+}
+>>>>>>> master
 
 
 
