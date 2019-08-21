@@ -13,22 +13,22 @@ var day = parseInt(document.getElementById)("day").value);
 if(century > 21 ){
     alert("Enter correct Century");
 } else {
-    document.write("continue");
+    console.log("continue");
 }
 if(year <= 0|| > 2020){
     alert("Enter correct Year");
 } else {
-    document.write("continue");
+    console.log("continue");
 }
 if(month <= 0 || > 12)
     alert("Enter correct month");
 } else {
-    document.write("continue");
+    console.log("continue");
 }
 if(day <= 0 || > 31)
     alert("Enter valid day");
 } else {
-    document.write("continue");
+    console.log("continue");
 }
 console.log = "result"
 // calculation function 
@@ -76,46 +76,4 @@ console.log = "result"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-switch(gender){
-    case gender = "male":
-          switch(day){
-            case (0 || -0):
-              document.getElementById("result").innerHTML = "The day is on a sunday." + "  " + "Your akan name is " + maleNames[0];
-            break;
-            case (1 || -1):
-              document.getElementById("result").innerHTML = "The day is on a monday." + " " + "Your akan name is " + maleNames[1];
-            break;
-            case (2 || -2):
-              document.getElementById("result").innerHTML = "The day is on Tuesday." + "" + "Your akan name is" + maleNames[2];
-            break;
-            case (3 || -3)
-              document.getElementById("result").innerHTML = "The day is on Wednesday." + "" + "Your akan name is" + maleNames[3];
-            break;
-            case (4 || -4):
-              document.getElementById("result").innerHTML = "The day is on Thursday." + "" + "Your akan name is" + maleNames[4];
-            break;
-            case (5 || -5):
-             document.getElementById("result").innerHTML = " The day is on Friday" + "" + "Your akan name is" + maleNames[5];
-            break;
-            case (6 || -6):
-                document.getElementById("results").innerHTML = " The day is on Saturday" + "" + "You akan name is" + maleNames[6]
-            break;
-            
 
